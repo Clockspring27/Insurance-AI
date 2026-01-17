@@ -1,0 +1,6 @@
+langchain-google-genai
+langchain-community
+langchain-classic
+langchain-core
+langchain-qdrant
+pypdf
