@@ -30,7 +30,7 @@ Insurance Helper uses advanced AI to analyze insurance policy documents and answ
 insurance-helper/
 ├── app.py                     # Streamlit application
 ├── config.py                  # Configuration settings
-├── .env                       # Environment variables (not in repo)
+├── .env                       # Environment variables
 ├── requirements.txt           # Python dependencies
 ├── PDF/                       # PDF Folder
     ├── 60_GEN893.pdf                         
@@ -73,3 +73,4 @@ The AI-generated responses may contain errors or misinterpretations. This tool d
 
 ## License
 MIT License
+
