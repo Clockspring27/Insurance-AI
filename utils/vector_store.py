@@ -29,6 +29,7 @@ class VectorStoreManager:
         # Initialize embeddings
         self.embeddings = GoogleGenerativeAIEmbeddings(
             model=Config.EMBEDDING_MODEL,
+            output_dimensionality=Config.EMBEDDING_DIMENSION,
             google_api_key=Config.GEMINI_API_KEY
         )
         
