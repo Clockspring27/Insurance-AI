@@ -18,7 +18,7 @@ class Config:
     GEMINI_MAX_OUTPUT_TOKENS = 2048
     
     # Embedding Configuration
-    EMBEDDING_MODEL = "models/text-embedding-004"
+    EMBEDDING_MODEL = "gemini-embedding-001"
     EMBEDDING_DIMENSION = 768
     
     # PDF Processing Configuration
