@@ -38,6 +38,10 @@ insurance-helper/
     ├── pdf_processor.py       # PDF loading and chunking
     ├── vector_store.py        # Qdrant vector store operations
     └── rag_chain.py           # RAG pipeline implementation
+└── Evaluation/
+    ├── eval.py                # Evaluation script
+    ├── eval_summanry.csv      # evaluation summanry
+    └── results.json           # results
 ```
 **Web Demo**
 
@@ -60,6 +64,16 @@ Every answer includes:
 - Section type
 - Content preview (first 200 characters)
 
+# Evaluation Summary
+
+| question                             |   Faithfulness |   Relevancy |   Correctness |
+|:-------------------------------------|---------------:|------------:|--------------:|
+| What is IDV?                         |            1   |        1    |           0.1 |
+| What are the main policy exclusions? |            0.9 |        0.95 |           0.1 |
+| Are natural disasters covered?       |            1   |        0.8  |           1   |
+| What is comprehensive insurance?     |            1   |        1    |           1   |
+| How does the No Claim Bonus work?    |            1   |        0.9  |           1   |
+
 ⚠️ **NOTE**
 ---
 This tool is for informational and educational purposes only. It should NOT be used as the sole basis for making insurance decisions. Always:
@@ -73,4 +87,3 @@ The AI-generated responses may contain errors or misinterpretations. This tool d
 
 ## License
 MIT License
-
