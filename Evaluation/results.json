@@ -1,0 +1,127 @@
+[
+  {
+    "question": "What is IDV?",
+    "answer": "Based on the provided insurance document excerpts, the term \"IDV\" is not mentioned or defined.\n\nTherefore, I cannot provide information about IDV from the given context.",
+    "ground_truth": "IDV (Insured's Declared Value) is the maximum sum insured fixed for the vehicle at the beginning of each policy period.",
+    "contexts_count": 5,
+    "faithfulness": {
+      "score": 1.0,
+      "explanation": "The answer accurately states that the term 'IDV' is not mentioned or defined in any of the provided contexts. This claim is fully supported by the absence of 'IDV' in all retrieved contexts.",
+      "unsupported_claims": []
+    },
+    "relevancy": {
+      "score": 1.0,
+      "explanation": "The answer is perfectly relevant because it directly addresses the question by stating that the term 'IDV' is not found or defined within the provided insurance document excerpts. For a RAG system, correctly identifying that information is absent from the given context is a highly relevant and appropriate response, as it prevents hallucination and accurately reflects the system's grounding.",
+      "missing_aspects": []
+    },
+    "correctness": {
+      "score": 0.1,
+      "explanation": "The ground truth provides the definition of IDV. The answer explicitly states that it cannot provide information about IDV because the term is not mentioned or defined in its context. Therefore, the answer fails to provide the correct information as established by the ground truth. It's a non-answer to the implicit question, rather than providing the correct factual information.",
+      "incorrect_facts": []
+    },
+    "timestamp": "2026-01-29T16:50:33.767650"
+  },
+  {
+    "question": "What are the main policy exclusions?",
+    "answer": "Based on the provided context, here are the main policy exclusions:\n\n**For Key Replacement Coverage:**\n\n1.  **Initial Waiting Period:** The company will not cover any claim made within the first 5 days of the loss occurring.\n    *   *Exception:* This 5-day exclusion does not apply if the loss is due to theft or burglary.\n2.  **Malicious/Criminal Acts:** Damage or loss to keys, lock, or lockset caused by intentional harmful activities (malicious activities), or any deliberate or criminal act.\n3.  **Pre-existing Lock/Lockset Damage:** Any loss or damage to the lock or lockset that happened *before* the keys were lost or stolen.\n4.  **Lock-Only Damage:** Loss or damage that affects only the lock (without involving the keys or the entire lockset in the incident).\n5.  **Manufacturer's Warranty Coverage:** Any loss or damage that is already covered under the original manufacturer's warranty.\n6.  **Lack of Proof of Payment:** Any claim where you (the Insured) cannot provide invoices or receipts for the payments made.\n7.  **Hazardous Substances:** Loss or damage caused by radiation, radioactive contamination, or the dangerous properties of any explosive, corrosive, invasive, or toxic substance or material.\n\n**For Legal Liability (Workmen's Compensation) Endorsement:**\n\n1.  **Existing Other Insurance & Employee Limit:** The company will not be liable to cover your legal responsibility for general employees if:\n    *   You already have another insurance policy with any company for this type of liability for your general employees, *and*\n    *   You have not obtained special permission from the registration authorities to carry more than six such employees.\n\n**Explanation of Terms:**\n\n*   **Exclusion:** A specific situation, condition, or type of loss that your insurance policy does not cover.\n*   **Insured:** The person or entity covered by the insurance policy (you, the policyholder",
+    "ground_truth": "Main exclusions include wear and tear, mechanical breakdown, pre-existing damage, consequential losses, and driving without valid license.",
+    "contexts_count": 5,
+    "faithfulness": {
+      "score": 0.9,
+      "explanation": "The answer is highly faithful to the retrieved contexts. All the listed policy exclusions for both 'Key Replacement Coverage' and 'Legal Liability (Workmen's Compensation) Endorsement' are directly and accurately extracted from Context 2 and Context 3, respectively. The answer correctly categorizes them and provides clear explanations. The only minor unsupported details are the definitions of 'Exclusion' and 'Insured' in the 'Explanation of Terms' section. While these definitions are accurate general knowledge, they are not explicitly present or derived from the provided contexts.",
+      "unsupported_claims": [
+        "Explanation of 'Exclusion': A specific situation, condition, or type of loss that your insurance policy does not cover.",
+        "Explanation of 'Insured': The person or entity covered by the insurance policy (you, the policyholder)"
+      ]
+    },
+    "relevancy": {
+      "score": 0.95,
+      "explanation": "The answer directly addresses the question by listing various policy exclusions under different coverage types (Key Replacement and Legal Liability). It stays on topic and provides relevant details. The 'Explanation of Terms' section, while defining 'Insured' which isn't an exclusion itself, is minor and doesn't significantly detract from the overall relevancy, especially since it also defines 'Exclusion'.",
+      "missing_aspects": []
+    },
+    "correctness": {
+      "score": 0.1,
+      "explanation": "The answer provides a list of exclusions that are almost entirely different from the ground truth. The ground truth lists 'wear and tear, mechanical breakdown, pre-existing damage, consequential losses, and driving without valid license'. The answer lists exclusions for 'Key Replacement Coverage' and 'Legal Liability (Workmen's Compensation) Endorsement', which do not align with the ground truth's general exclusions. The only partial overlap is 'Pre-existing Lock/Lockset Damage' in the answer versus 'pre-existing damage' in the ground truth, but this is a specific instance rather than the general exclusion expected.",
+      "incorrect_facts": [
+        "Initial Waiting Period (for Key Replacement) is an exclusion.",
+        "Malicious/Criminal Acts (for Key Replacement) is an exclusion.",
+        "Lock-Only Damage (for Key Replacement) is an exclusion.",
+        "Manufacturer's Warranty Coverage (for Key Replacement) is an exclusion.",
+        "Lack of Proof of Payment (for Key Replacement) is an exclusion.",
+        "Hazardous Substances (for Key Replacement) is an exclusion.",
+        "Existing Other Insurance & Employee Limit (for Legal Liability) is an exclusion."
+      ]
+    },
+    "timestamp": "2026-01-29T16:51:07.217595"
+  },
+  {
+    "question": "Are natural disasters covered?",
+    "answer": "Yes, your insurance policy covers several types of natural disasters.\n\nBased on the provided context, the following natural disasters are covered:\n\n*   **Earthquake:** This includes both fire and shock damage caused by an earthquake.\n*   **Flood, Typhoon, Hurricane, Storm, Tempest, Inundation, Cyclone, Hailstorm, Frost:** These are all covered events related to severe weather and water damage.\n*   **Landslide and Rockslide:** Damage caused by these geological events is also covered.\n\n**Important Considerations:**\n\n*   **Depreciation:** For any parts replaced due to damage from these natural disasters, the company will apply a deduction for depreciation. This means the payout for the damaged parts will be reduced based on their age and type (e.g., 50% for rubber/nylon/plastic parts, tyres, tubes, batteries, and airbags; 30% for fibre glass components; Nil for glass parts; and other rates for other parts).\n*   **Zero Depreciation Add-on:** If you have purchased the \"Zero Depreciation\" add-on by paying an additional premium, the company will *not* deduct any amounts for depreciation for parts replaced due to damage from any covered peril, including natural disasters. However, this benefit is typically limited to the **first two claims** during your policy period. Any claims after the first two would then be subject to the standard depreciation rates mentioned above.",
+    "ground_truth": "Yes, natural disasters like floods, earthquakes, storms are covered under comprehensive own damage coverage.",
+    "contexts_count": 5,
+    "faithfulness": {
+      "score": 1.0,
+      "explanation": "All claims in the answer are directly supported by the provided retrieved contexts. The answer accurately extracts and synthesizes information regarding covered natural disasters, depreciation rates, and the conditions of the 'Zero Depreciation' add-on.",
+      "unsupported_claims": []
+    },
+    "relevancy": {
+      "score": 0.8,
+      "explanation": "The answer directly addresses the question by stating 'Yes' and then listing the specific natural disasters covered. However, it includes a significant amount of detail about 'Depreciation' and 'Zero Depreciation Add-on', which, while related to the policy, are details about the financial terms of a claim rather than directly answering 'Are natural disasters covered?' or 'Which ones are covered?'. This information is a tangent and somewhat excessive for the direct question asked.",
+      "missing_aspects": []
+    },
+    "correctness": {
+      "score": 1.0,
+      "explanation": "The answer correctly affirms that natural disasters are covered, aligning perfectly with the ground truth. It then provides a detailed and accurate list of specific natural disasters, which is consistent with the examples given in the ground truth (floods, earthquakes, storms). The additional information regarding depreciation and the 'Zero Depreciation Add-on' is relevant and factually correct in the context of insurance claims for such events, and does not contradict or invalidate the core statement of the ground truth. It simply provides more comprehensive information.",
+      "incorrect_facts": []
+    },
+    "timestamp": "2026-01-29T16:51:37.833441"
+  },
+  {
+    "question": "What is comprehensive insurance?",
+    "answer": "Based on the provided context, the term \"comprehensive insurance\" is not explicitly defined.\n\nHowever, the document describes several key components that are typically included in a comprehensive motor insurance policy:\n\n1.  **Loss or Damage to Your Own Vehicle (Section I - \"Loss or Damage to the Vehicles Insured\")**: This part of the policy covers damage to your own vehicle.\n    *   **Insured Declared Value (IDV)**: This is the maximum amount your insurer will pay if your vehicle is a total loss (e.g., completely destroyed or stolen). It's calculated based on the manufacturer's selling price, adjusted for depreciation according to a schedule (e.g., 5% for vehicles up to 6 months old, 15% for 6 months to 1 year, up to 50% for 4-5 years old). For vehicles older than 5 years or obsolete models, the IDV is agreed upon between you and the insurer.\n    *   **Total Loss (TL) / Constructive Total Loss (CTL)**: Your vehicle is considered a CTL if the cost to retrieve and/or repair it exceeds 75% of its IDV. In such cases, the IDV is treated as the market value for the claim.\n    *   **Compulsory Deductible**: This is an amount you must pay out of your own pocket for each and every claim you make under Section I (damage to your own vehicle), even in cases of total loss. The specific amount is determined by the class of your vehicle.\n\n2.  **Liability to Third Parties**: This section covers your legal responsibility if your vehicle causes an accident that results in injury or damage to another person or their property. The company will pay sums you are legally liable for, up to the limits specified in your policy schedule.\n\n3.  **No Claim Bonus (NCB) Benefit**: This is a discount on your premium for not making any claims during the previous policy period. The percentage of discount depends on how many consecutive claim-free years you've had and how many claims (if any) you make in the current policy period. For example, if you have 4 or more prior claim-free years and make 0 claims, you could get a 50% NCB. If you make 1 claim, your NCB might reduce to 45% (under Plan 1) or 35% (under Plan 2).\n    *   **Limitation**: You will not receive any No Claim Bonus if you lodge more than three claims during the same policy period under the \"Loss or Damage to the Vehicles Insured\" section.\n\n**In simple terms:** While the document doesn't define \"comprehensive insurance\" directly, it details the two main components: coverage for damage to *your own vehicle* (including how its value is determined and what you pay out-of-pocket for claims) and coverage for *damage or injury you cause to others*. It also explains how you can get a discount for being a safe driver (No Claim Bonus).\n\n**Important Exclusions/Limitations mentioned:**\n*   Claims for laptops/mobile phones not declared when you bought the policy.\n*   Claims reported to the company more than 30 days after the loss occurred.\n*   Any amount exceeding the market value of mobile phones or laptops declared at policy issuance, after depreciation.",
+    "ground_truth": "Comprehensive insurance covers both own damage to the vehicle and third-party liability for injury or property damage.",
+    "contexts_count": 5,
+    "faithfulness": {
+      "score": 1.0,
+      "explanation": "All claims made in the answer are directly supported by the provided retrieved contexts. The answer accurately extracts and synthesizes information regarding IDV, depreciation, CTL, compulsory deductible, third-party liability, NCB benefits and limitations, and specific exclusions, all of which are present in the contexts. It correctly notes that 'comprehensive insurance' is not explicitly defined but describes its components based on the text.",
+      "unsupported_claims": []
+    },
+    "relevancy": {
+      "score": 1.0,
+      "explanation": "The answer correctly states that the term 'comprehensive insurance' is not explicitly defined in the context but then proceeds to thoroughly explain the key components that are typically included in such a policy (own vehicle damage, third-party liability, NCB, and exclusions). This effectively answers the question by describing what comprehensive insurance entails, even without a direct definition.",
+      "missing_aspects": []
+    },
+    "correctness": {
+      "score": 1.0,
+      "explanation": "The answer correctly identifies the two main components of comprehensive insurance as described in the ground truth: coverage for own vehicle damage and third-party liability. Although it notes that the term 'comprehensive insurance' was not explicitly defined in its context, it accurately infers and details the components that constitute it, aligning perfectly with the core meaning of the ground truth. The additional details provided (IDV, NCB, deductibles, exclusions) are relevant and do not contradict the ground truth.",
+      "incorrect_facts": []
+    },
+    "timestamp": "2026-01-29T16:52:07.907020"
+  },
+  {
+    "question": "How does the No Claim Bonus work?",
+    "answer": "The No Claim Bonus (NCB) is a reward system designed to benefit policyholders who do not make any claims during their insurance period. Here's how it works based on your document:\n\n**How No Claim Bonus (NCB) Works:**\n\n1.  **Discount on Own Damage Premium:** The NCB provides a discount specifically on your **Own Damage Premium**. This is the part of your insurance premium that covers damages to your own vehicle.\n2.  **Earned for Claim-Free Years:** You earn NCB by not making any claims (or having any claims pending) during the preceding full years of your insurance policy.\n3.  **Increasing Discount:** The discount percentage increases with each consecutive claim-free year, up to a maximum of 50% for five consecutive claim-free years:\n    *   **1 claim-free year:** 20% discount\n    *   **2 consecutive claim-free years:** 25% discount\n    *   **3 consecutive claim-free years:** 35% discount\n    *   **4 consecutive claim-free years:** 45% discount\n    *   **5 consecutive claim-free years:** 50% discount\n4.  **Reset upon Claim:** If you make a claim under your policy, your accumulated NCB will revert to 'Nil' (zero) at your next renewal. This means you will lose the discount you had built up.\n\n**Important Note (Sunset Clause - Historical):**\nYour document also mentions a \"Sunset Clause\" which was applicable for renewals between July 1, 2002, and June 30, 2003. If an insured was entitled to a higher NCB (55% or 65%) under older tariff rules during that specific period, that higher percentage would have been protected for subsequent renewals. However, even in such cases, if a claim arose under the policy, the NCB would still revert to 'Nil' at the next renewal.\n\n**What the document doesn't specify:**\nThe provided context focuses on the discount structure and how it's earned/lost. It does not detail aspects like:\n*   Whether NCB is transferable if you sell your vehicle and buy a new one.\n*   Whether NCB is transferable if you switch insurance providers.\n*   The specific types of claims that might or might not affect NCB (e.g., minor repairs vs. major accidents).",
+    "ground_truth": "No Claim Bonus (NCB) is a discount on premium for claim-free years, ranging from 20% to 50% based on consecutive claim-free years.",
+    "contexts_count": 5,
+    "faithfulness": {
+      "score": 1.0,
+      "explanation": "All claims made in the answer are directly supported by the provided Context 4, which specifically details the No Claim Bonus (NCB) system. The answer accurately extracts information regarding the discount percentages, the conditions for earning and losing NCB, and the historical 'Sunset Clause'. It also correctly identifies aspects not covered by the provided contexts.",
+      "unsupported_claims": []
+    },
+    "relevancy": {
+      "score": 0.9,
+      "explanation": "The answer provides a comprehensive explanation of the core mechanics of the No Claim Bonus, including how it's earned, the discount structure, and how it's reset. It also includes a specific historical detail about its working. The section 'What the document doesn't specify' is not directly an answer to the question but rather a meta-commentary on the source document's limitations, which slightly detracts from perfect relevancy.",
+      "missing_aspects": [
+        "Whether NCB is transferable if you sell your vehicle and buy a new one.",
+        "Whether NCB is transferable if you switch insurance providers.",
+        "The specific types of claims that might or might not affect NCB (e.g., minor repairs vs. major accidents)."
+      ]
+    },
+    "correctness": {
+      "score": 1.0,
+      "explanation": "The answer is completely correct. It accurately defines No Claim Bonus (NCB) as a discount for claim-free years, specifies the range from 20% to 50% based on consecutive claim-free years, and even provides the detailed breakdown of percentages, which is consistent with the ground truth. It also adds relevant and correct information about how NCB works (e.g., discount on Own Damage Premium, reset upon claim) and a historical 'Sunset Clause', none of which contradict the ground truth but rather elaborate on it accurately.",
+      "incorrect_facts": []
+    },
+    "timestamp": "2026-01-29T16:52:44.585816"
+  }
+]

@@ -1,0 +1,14 @@
+question,answer_preview,faithfulness,relevancy,correctness
+What is IDV?,"Based on the provided insurance document excerpts, the term ""IDV"" is not mentioned or defined.
+
+Ther...",1.0,1.0,0.1
+What are the main policy exclusions?,"Based on the provided context, here are the main policy exclusions:
+
+**For Key Replacement Coverage:...",0.9,0.95,0.1
+Are natural disasters covered?,"Yes, your insurance policy covers several types of natural disasters.
+
+Based on the provided context...",1.0,0.8,1.0
+What is comprehensive insurance?,"Based on the provided context, the term ""comprehensive insurance"" is not explicitly defined.
+
+Howeve...",1.0,1.0,1.0
+How does the No Claim Bonus work?,The No Claim Bonus (NCB) is a reward system designed to benefit policyholders who do not make any cl...,1.0,0.9,1.0
